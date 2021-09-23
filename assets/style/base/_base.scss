@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  font-weight: 400;
+  background-color: #dddddd;
+  line-height: 1.5;
+  display: grid;
+  place-items: center;
+}

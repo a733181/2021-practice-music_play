@@ -1,0 +1,166 @@
+// set
+.w {
+  &-100 {
+    width: 100%;
+  }
+  &-80 {
+    width: 80%;
+  }
+}
+.d {
+  &-flex {
+    display: flex;
+  }
+  &-block {
+    display: block;
+  }
+}
+.flex {
+  &-column {
+    flex-direction: column;
+  }
+  &-jcc {
+    justify-content: center;
+  }
+  &-jcb {
+    justify-content: space-between;
+  }
+  &-aic {
+    align-items: center;
+  }
+}
+.bg {
+  &-gray-100 {
+    background-color: #e1e1e1;
+  }
+  &-gray-200 {
+    background-color: darken($color: #e1e1e1, $amount: 10);
+  }
+  &-black {
+    background-color: black;
+  }
+}
+.c {
+  &-white {
+    color: white;
+  }
+  &-gray {
+    color: #404040;
+  }
+}
+.border {
+  &-ra {
+    border-radius: 50%;
+  }
+  &-ra-6 {
+    border-radius: 36px;
+  }
+}
+.fs {
+  &-s {
+    font-size: 10px;
+  }
+  &-m {
+    font-size: 24px;
+  }
+}
+.tac {
+  text-align: center;
+}
+.shadow {
+  box-shadow: -8px -8px 16px rgba(255, 255, 255, 0.25),
+    8px 8px 16px rgba(97, 97, 97, 0.25);
+}
+.p {
+  &-1 {
+    padding: 6px;
+  }
+  &-3 {
+    padding: 18px;
+  }
+}
+.mt {
+  &-8 {
+    margin-top: 48px;
+  }
+  &-10 {
+    margin-top: 60px;
+  }
+  &-13 {
+    margin-top: 78px;
+  }
+}
+.mb {
+  &-20 {
+    margin-bottom: 120px;
+  }
+}
+//
+.container {
+  width: 375px;
+}
+
+.box {
+  width: 156px;
+  height: 156px;
+}
+.music-cover {
+  width: 123px;
+  height: 123px;
+  border-radius: 35px;
+  background-size: cover;
+}
+
+.btn {
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
+    position: relative;
+    top: 5px;
+  }
+}
+.range {
+  appearance: none;
+  width: 100%;
+  height: 7px;
+  border-radius: 0;
+  outline: none;
+  background-color: #e1e1e1;
+  box-shadow: inset -8px -8px 16px rgba(117, 117, 117, 0.25),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.25);
+  // background range
+  background-image: -webkit-gradient(
+    linear,
+    50% 0%,
+    50% 100%,
+    color-stop(0%, #000),
+    color-stop(100%, #000)
+  );
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  &::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  &::-webkit-slider-runnable-track {
+    // 清空
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+  }
+}
+.pause {
+  & .fa-pause {
+    display: none;
+  }
+}
+.play {
+  & .fa-play {
+    display: none;
+  }
+}

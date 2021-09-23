@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music play</title>
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+  <body>
+    <audio src="" class="audio"></audio>
+    <div class="container shadow">
+      <div class="d-flex flex-jcb flex-aic bg-black c-white p-1">
+        <p class="time">00:00</p>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+      <div class="d-flex flex-column flex-jcc flex-aic mt-13">
+        <div
+          class="box d-flex flex-jcc flex-aic shadow border-ra-6 bg-gray-100"
+        >
+          <div class="music-cover shadow"></div>
+        </div>
+        <div class="mt-8 tac">
+          <h1 class="music-name fs-m"></h1>
+          <h2 class="music-artist fs-s c-gray-200"></h2>
+        </div>
+        <div class="mt-10 w-80">
+          <div class="d-flex flex-jcb w-100">
+            <p class="fs-s current-time">00:00</p>
+            <p class="fs-s song-duration">00:00</p>
+          </div>
+          <input type="range" min="0" max="100" value="0" class="range" />
+        </div>
+        <ul class="d-flex flex-jcb flex-aic w-80 mt-13 mb-20">
+          <li class="btn backward-btn bg-gray-100 shadow border-ra">
+            <i class="fas fa-step-backward fa-sm p-3"></i>
+          </li>
+          <li class="btn play-btn pause bg-gray-100 shadow border-ra">
+            <i class="fas fa-play fa-lg p-3"></i>
+            <i class="fas fa-pause fa-lg p-3"></i>
+          </li>
+          <li class="btn forward-btn bg-gray-100 shadow border-ra">
+            <i class="fas fa-step-forward fa-sm p-3"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
