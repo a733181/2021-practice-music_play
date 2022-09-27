@@ -1,8 +1,6 @@
 切版班讀書會
 作者： discord-zz41354899
 
-[Page](https://a733181.github.io/practice-music_play_02/)
-
 音樂圖片來源：
 歌曲名稱：BEAUZ & JVNA
 作者：Cary
